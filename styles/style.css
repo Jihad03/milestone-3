@@ -1,0 +1,70 @@
+/*==================== RESETS ====================*/
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+}
+
+/*==================== VARIABLES ====================*/
+
+:root {
+  --orange: #e76f51;
+  --darkgray: #264653;
+}
+
+/*==================== REUSABLES ====================*/
+
+.btn-bd-primary {
+  --bs-btn-font-weight: 600;
+  --bs-btn-color: var(--bs-white);
+  --bs-btn-bg: var(--orange);
+  --bs-btn-border-radius: 0.5rem;
+  --bs-btn-hover-color: var(--orange);
+  padding: 10px 24px;
+}
+
+.orange {
+  color: var(--orange);
+}
+
+ion-icon {
+  color: #e77c40;
+}
+
+/*==================== HERO SECTION ====================*/
+header {
+  height: 652px;
+  background-color: var(--darkgray);
+}
+
+.navbar {
+  padding-top: 42px;
+}
+
+.navbar ul li a {
+  color: white;
+}
+
+img {
+  width: 552px;
+}
+
+.banner {
+  margin-top: 69px;
+}
+
+/*==================== FEATURED SECTION ====================*/
+
+.gray-scale {
+  filter: grayscale(100%);
+}
+
+.featured-imgs img {
+  width: 288px;
+  height: 243px;
+}
